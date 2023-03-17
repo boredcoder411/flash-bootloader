@@ -3,10 +3,16 @@ Just some notes for me to remember how to flash the micronucleus bootloader on t
 ## Pinout:
 Note: this is noted arduino to digispark
 ```
-5v -> 5v
+5V -> 5V
 GND -> GND
 10 -> P5
 11 -> P0
 12 -> P1
 13 -> P2
 ```
+## Steps:
+1. Flash "Arduino as ISP" to arduino uno.
+2. Copy the .bat and .hex to the root of the arduino IDE.
+3. Link the digispark to the arduino with the pinout listed above.
+4. Run the .bat file as admin
+5. Pray
