@@ -14,5 +14,6 @@ GND -> GND
 1. Flash "Arduino as ISP" to arduino uno.
 2. Copy the .bat and .hex to the root of the arduino IDE.
 3. Link the digispark to the arduino with the pinout listed above.
-4. Run the .bat file as admin
-5. Pray
+4. Edit the .bat file so that the -PCOM<COM port number> matches the COM port the arduino is on.
+5. Run the .bat file as admin
+6. Pray
